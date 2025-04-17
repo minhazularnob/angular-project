@@ -1,0 +1,30 @@
+.btn {
+    border-radius: 50%;
+    width: 125px;
+    height: 130px;
+    color: #763391;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: rgb(197, 209, 24);
+    font-size: large;
+}
+
+.color-green {
+    background: green;
+}
+
+.color-red {
+    background: red;
+}
+
+.color-yellow {
+    background: yellow;
+}
+
+h1 {
+    background: green;
+    width: 68px;
+    padding: 10px;
+}
