@@ -11,6 +11,7 @@ export class AppComponent {
   title = 'angular-project';
   gethere = "";
   setHere = "";
+  isShow = true;
 
   getInput(value: string) {
     this.gethere = value;
@@ -18,5 +19,14 @@ export class AppComponent {
 
   setInput(value: HTMLInputElement) {
     this.setHere = "Minhaz"
+  }
+  showHideDiv(){
+    if(this.isShow){
+      this.isShow = false;
+    }
+    else{
+      this.isShow = true;
+    }
+
   }
 }
